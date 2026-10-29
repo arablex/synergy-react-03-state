@@ -1,0 +1,44 @@
+.timer {
+  border: 1px solid #ccc;
+  padding: 20px;
+  text-align: center;
+  margin: 20px;
+  border-radius: 10px;
+  background-color: #e6f7ff;
+}
+
+.timer button {
+  margin: 5px;
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.timer button:hover {
+  background-color: #218838;
+}
+
+.timer button:disabled {
+  background-color: #9ca3af;
+  cursor: not-allowed;
+}
+
+.timer input {
+  margin-top: 10px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.timer .hint {
+  color: #6b7280;
+  font-size: 14px;
+}
+
+.timer .finished {
+  color: #b91c1c;
+  font-weight: 600;
+}
